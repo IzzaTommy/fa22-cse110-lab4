@@ -19,3 +19,27 @@
 10. Line 12 will print 3 because it accesses the constant length, which was set to 3, and is accessible within the scope of the function.
     
 11. The function returns an array of values: 50, 100, 150. The function recieves the array [100, 200, 300] and 0.5, and the for loop applies math to each element of the array, and pushes the result into another array that is ultimately returned after the loop.
+    
+12. A. student.name 
+    B. student["Grad Year"]
+    C. student.greeting()
+    D. student["Favorite Teacher"].name
+    E. student.courseLoad[0]
+
+13. A. '32', 2 is converted to a string and concatenated to '3'.
+    B. 1, math operation converted '3' to number and performs the operation.
+    C. 3, null is converted to 0 and added to 3.
+    D. '3null', null is converted to string and concatenated to '3'.
+    E. 4, true is converted to 1 and added to 3.
+    F. 0, false and null are converted to 0 and added.
+    G. '3undefined', undefined is converted to string and concatenated to '3'.
+    H. NaN, undefined is converted to NaN which is not a number, so it cannot be mathematically operated on.
+
+14. A. true, '2' is converted to a number and compared to 1.
+    B. false, in lexicographical order '2' does not come before '1' in '12'.
+    C. true, '2' is converted to a number and compared to 2.
+    D. false, 2 and '2' are different types so it is automatically false.
+    E. false, true is converted to 1 and compared to 2.
+    F. true, true is compared to the return of the Boolean(2) function which is true.
+
+15. === will not do a type conversion when it checks for equality, but == will. This will make all type differences produce false.
