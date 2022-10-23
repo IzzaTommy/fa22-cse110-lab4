@@ -45,3 +45,8 @@
 15. === will not do a type conversion when it checks for equality, but == will. This will make all type differences produce false.
 
 17. [2, 4, 6]. The array [1, 2, 3] and function doSomething is passed to modifyArray, which iterates through the array, calls callback (doSomething) on each element of the array, and pushes the result to the new array that is returned.
+
+19. 1
+    4
+    3
+    2
